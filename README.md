@@ -1239,7 +1239,7 @@ Create a table that breaks down school performances based on average Spending Ra
 
 
 ```python
-group_name=["\$570-\$610","\$610-\$650","> $650"]
+group_name=["$570-$610","$610-$650","> $650"]
 bins=np.arange(570,700,40)
 #bins= [570, 610, 650, 690]
 
@@ -1295,7 +1295,7 @@ school_spending_df.groupby("School Spending").mean()
   </thead>
   <tbody>
     <tr>
-      <th>\$570-\$610</th>
+      <th>$570-$610</th>
       <td>93.717016</td>
       <td>93.717016</td>
       <td>83.503495</td>
@@ -1303,7 +1303,7 @@ school_spending_df.groupby("School Spending").mean()
       <td>93.717016</td>
     </tr>
     <tr>
-      <th>\$610-\$650</th>
+      <th>$610-$650</th>
       <td>74.295260</td>
       <td>74.295260</td>
       <td>78.792545</td>
